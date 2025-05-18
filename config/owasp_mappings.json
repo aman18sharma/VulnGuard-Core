@@ -1,0 +1,13 @@
+// File: config/owasp_mappings.json
+{
+  "injection": "A03",
+  "broken_access_control": "A01",
+  "cryptographic_failures": "A02",
+  "insecure_design": "A04",
+  "security_misconfiguration": "A05",
+  "vulnerable_components": "A06",
+  "authentication_failures": "A07",
+  "software_data_integrity": "A08",
+  "security_logging_monitoring": "A09",
+  "server_side_request_forgery": "A10"
+}

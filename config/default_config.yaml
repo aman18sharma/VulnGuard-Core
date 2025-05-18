@@ -1,0 +1,20 @@
+# File: config/default_config.yaml
+analysis:
+  static:
+    file_extensions: [".py", ".java", ".js"]
+    credential_patterns:
+      - "password"
+      - "secret_key"
+      - "api_key"
+      - "auth_token"
+    sql_patterns:
+      - "SELECT.*FROM"
+      - "INSERT INTO"
+      - "UPDATE.*SET"
+  runtime:
+    log_extensions: [".log", ".csv", ".json", ".txt"]
+    injection_patterns:
+      - "DROP TABLE"
+      - "OR 1=1"
+      - ";--"
+      - "UNION SELECT"

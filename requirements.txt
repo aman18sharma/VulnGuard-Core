@@ -1,0 +1,17 @@
+# Core dependencies
+ollama>=0.1.2        # For AI model interactions
+fpdf2>=2.7.5         # PDF report generation
+PyYAML>=6.0.0        # Configuration file parsing
+python-dotenv>=1.0.0 # Environment variable management
+
+# Static analysis dependencies
+astroid>=2.15.0      # Advanced AST parsing (future-proofing)
+python-magic>=0.4.27 # File type detection
+
+# Runtime analysis dependencies
+pandas>=2.0.0        # For log file analysis (CSV/JSON handling)
+
+# Development utilities (optional)
+pytest>=7.4.0        # Testing framework
+black>=23.7.0        # Code formatting
+mypy>=1.4.1          # Static type checking
